@@ -19,3 +19,20 @@ jobs:
         run: npm run publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: List build output files
+        run: dir /s "D:\a\Aerial-Launcher\Aerial-Launcher\out\make"
+        shell: cmd
+      - name: Create Release
+        uses: softprops/action-gh-release@v2.2.2
+        if: success()
+        with:
+          files: |
+            D:\a\Aerial-Launcher\Aerial-Launcher\out\make\*
+          tag_name: ${{github.ref_name }}
+          name: Release ${{ github.ref_name }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+
+        
+      
