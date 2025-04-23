@@ -1,54 +1,54 @@
 {
   "stw-operations": {
-    "title": "STW Operations",
+    "title": "ПВЕ оперции",
     "options": {
-      "auto-kick": "Auto-kick",
-      "party": "Party",
-      "save-quests": "Save Quests",
-      "homebase-name": "Homebase Name",
-      "xp-boosts": "XP Boosts",
-      "auto-pin-urns": "Auto-pin Urns",
-      "auto-llamas": "Auto-llamas",
-      "unlock": "SSD Skip"
+      "auto-kick": "Авто-Кик",
+      "party": "Группа",
+      "save-quests": "Сохранить Награду",
+      "homebase-name": "Имя глав базы",
+      "xp-boosts": "Усилитель Опыта",
+      "auto-pin-urns": "Авто Закреп Урны",
+      "auto-llamas": "Авто-ламы",
+      "unlock": "Скип щита"
     },
     "auto-kick-status": {
-      "issue": "Issue",
-      "active": "Active"
+      "issue": "Ошибка",
+      "active": "Активно"
     }
   },
   "account-management": {
-    "title": "Account Management",
+    "title": "Управление Аккаунтом",
     "options": {
-      "vbucks-information": "V-Bucks Information",
-      "redeem-codes": "Redeem Codes",
-      "devices-auth": "Devices Auth",
-      "epic-settings": "Epic Games Settings"
+      "vbucks-information": "Информацию о Вбаксах",
+      "redeem-codes": "использовать Коды",
+      "devices-auth": "Аутентификация Устройств",
+      "epic-settings": "Настройки Epıc Games"
     }
   },
   "advanced-mode": {
-    "title": "Advanced Mode",
+    "title": "Продвинутый Режим",
     "options": {
-      "matchmaking-track": "Matchmaking Track",
+      "matchmaking-track": "Слежение Матчмейкинга",
       "world-info": "World Info"
     }
   },
   "accounts": {
-    "title": "My Accounts",
+    "title": "Мои Аккаунты",
     "options": {
-      "show-total-accounts": "Show Total Accounts",
-      "auth": "Authorization Code",
+      "show-total-accounts": "показать общий Аккаунты?",
+      "auth": "Код Авторизации",
       "exchange": "Exchange Code",
-      "device": "Device Auth",
-      "remove": "Remove Account"
+      "device": "Аутентификация Устройств",
+      "remove": "Убрать Аккаунт"
     }
   },
   "links": {
-    "discord": "Discord Server",
-    "github": "View on GitHub",
-    "credits": "Credits"
+    "discord": "Дискорд Сервер",
+    "github": "Посмотреть в Гитхабе",
+    "credits": "Авторы"
   },
   "version": {
-    "release": "Release v{{version}}",
-    "all-releases": "All Releases"
+    "release": "Релиз v{{version}}",
+    "all-releases": "Все версии"
   }
 }
