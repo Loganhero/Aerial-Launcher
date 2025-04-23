@@ -1,0 +1,17 @@
+{
+  "form": {
+    "generate-code": {
+      "input": {
+        "placeholder": "Сгенерированный код будет отображен здесь"
+      },
+      "submit-button": "Сгенерировать Exchange Code"
+    }
+  },
+  "notifications": {
+    "generate-code": {
+      "success": "Exchange code был создан и скопирован в буфер обмена",
+      "error": "Произошла ошибка при попытке генерации exchange code, попробуйте еще раз позже"
+    },
+    "clipboard": "Exchange code был скопирован в буфер обмена"
+  }
+}
