@@ -50,6 +50,14 @@ export function UncommonPerkUpSection({
               return null
             }
 
+            const quantity =
+              baseReward.quantity > 1
+                ? // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                  (baseReward as any).isBad !== undefined
+                  ? `${numberWithCommaSeparator(baseReward.quantity)}x`
+                  : numberWithCommaSeparator(baseReward.quantity)
+                : null
+
             return (
               <MissionItem
                 data={mission}
@@ -60,9 +68,7 @@ export function UncommonPerkUpSection({
                     src={baseReward.imageUrl}
                     className="img-type"
                   />
-                  {baseReward.quantity > 1
-                    ? numberWithCommaSeparator(baseReward.quantity)
-                    : null}
+                  {quantity}
                   <Modifiers data={mission.ui.mission.modifiers} />
                 </>
               </MissionItem>
