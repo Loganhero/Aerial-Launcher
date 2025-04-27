@@ -9,7 +9,7 @@
     "success": "Успех",
     "update": "Обновление",
     "accepted": "Принято",
-    "verify": "Верифированно"
+    "verify": "Принять"
   },
   "form": {
     "credentials": {
@@ -53,7 +53,7 @@
     "search-account": {
       "label": "Поиск игрока по accountId или отображаемого имени (epic, xbl или psn)",
       "input": {
-        "placeholder": "Example: Sample"
+        "placeholder": "Пример: Образец"
       }
     }
   },
@@ -128,7 +128,7 @@
     }
   },
   "account-selected": "Аккаунт выбран: <2>{{name}}</2>",
-  "boosts": "Бусты/s",
+  "boosts": "Бусты",
   "credits": "Авторы",
   "current": "Текущий",
   "date": "Дата",
@@ -140,9 +140,9 @@
   "note": "Примечание",
   "show-information": "Показывать Скрытую Информацию",
   "ip-address": "IP Адрес",
-  "last-played": "Последний Раз Играл в: {{date}}",
+  "last-played": "Последний Раз Играл: {{date}}",
   "location": "Локация",
-  "missions": "Миссии",
+  "missions": "Миссиия",
   "public-stats": "Примечание: У Этого Пользователя Отключена \"Общедоступная Игровая Статистика\", Доп Информация Не Может Быть Отображена.",
   "Settings": "Настройки",
   "summary": "Журнал",

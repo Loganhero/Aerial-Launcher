@@ -1,15 +1,15 @@
 {
   "stw-operations": {
-    "title": "ПВЕ оперции",
+    "title": "ПВЕ Операции",
     "options": {
-      "auto-kick": "Авто-Кик",
-      "party": "Группа",
-      "save-quests": "Сохранить Квесты",
-      "homebase-name": "Имя Глав Базы",
-      "xp-boosts": "Усилитель Опыта",
-      "auto-pin-urns": "Авто Закреп Урны",
-      "auto-llamas": "Авто-ламы",
-      "unlock": "Скип щита"
+      "auto-kick": "АвтоКик",
+      "party": "Управление Группой",
+      "save-quests": "Сохранять Квесты",
+      "homebase-name": "Имя Главной Базы",
+      "xp-boosts": "Усилители Опыта",
+      "auto-pin-urns": "Авто Закреп Урн",
+      "auto-llamas": "Автоламы",
+      "unlock": "Скип щитов"
     },
     "auto-kick-status": {
       "issue": "Ошибка",
@@ -19,8 +19,8 @@
   "account-management": {
     "title": "Управление Аккаунтом",
     "options": {
-      "vbucks-information": "Информацию о Вбаксах",
-      "redeem-codes": "Использовать Коды",
+      "vbucks-information": "Информацию о В-баксах",
+      "redeem-codes": "Активация Кодов",
       "devices-auth": "Аутентификация Устройств",
       "epic-settings": "Настройки Epic Games"
     }
